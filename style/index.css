@@ -63,7 +63,7 @@
 .bg{
   position: absolute;
   background-color: #171663;
-  height: 93vh;
+  height: 92vh;
   width :100%;
 }
 .background {
@@ -72,7 +72,7 @@
   background-repeat: no-repeat;
   background-blend-mode: darken;
   opacity: .5;
-  height: 93vh;
+  height: 92vh;
   width: 100%;
   
 }
@@ -138,11 +138,9 @@
 
 .links li a:nth-child(1)::after {
   content: "";
-
   position: absolute;
   left: 0; 
   color:#06a3da;
- 
 }
 .links li:nth-child(1)::after {
   content: "";
