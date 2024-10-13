@@ -62,12 +62,10 @@
 }
 
 .background {
-  background-color: rgb(16, 16, 182);
   background: url("../img/carousel-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  /* filter: blur(1px); */
   opacity: .8;
   height: 93vh;
   width: 100%;
@@ -146,6 +144,7 @@
 
 .links li a::after {
   content: "";
+  background-color: #000000;
   width: 0%;
   height: 4px;
   position: absolute;
@@ -155,7 +154,7 @@
 }
 
 .links li a:hover::after {
-  width: 80%;
+  width: 100%;
   opacity: 0.6;
 }
 
