@@ -30,6 +30,7 @@
 
 .header-left img {
   height: 19px;
+  
   margin-right:5px;
 }
 
@@ -125,7 +126,7 @@
   transition: linear 2s;
 }
 
-.links li:nth-child(1)::after {
+.links li:nth-child(2)::after {
   content: "";
   width: 80%;
   height: 3px;
