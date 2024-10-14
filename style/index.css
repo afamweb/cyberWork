@@ -30,7 +30,7 @@
 
 .header-left img {
   height: 19px;
-  margin-right:5px;
+  margin-right: 5px;
 }
 
 .L-con {
@@ -60,12 +60,14 @@
   border-radius: 50%;
 
 }
-.bg{
+
+.bg {
   position: absolute;
   background-color: #171663;
   height: 92vh;
-  width :100%;
+  width: 100%;
 }
+
 .background {
   background: url("../img/carousel-1.jpg");
   background-size: cover;
@@ -74,7 +76,7 @@
   opacity: .5;
   height: 92vh;
   width: 100%;
-  
+
 }
 
 .main-nav {
@@ -122,6 +124,7 @@
   list-style: none;
   height: 87%;
 }
+
 .links li {
   display: flex;
   align-items: center;
@@ -139,23 +142,24 @@
 .links li a:nth-child(1)::after {
   content: "";
   position: absolute;
-  left: 0; 
-  color:#06a3da;
+  left: 0;
+  color: #06a3da;
 }
+
 .links li:nth-child(1)::after {
   content: "";
   width: 80%;
   height: 3px;
   position: absolute;
-  left: 0; 
-  color:#06a3da;
+  left: 0;
+  color: #06a3da;
   bottom: -10%;
   background-color: #06a3da;
 }
 
 .links li a::after {
   content: "";
- 
+
   background-color: #06a3da;
   width: 0%;
   height: 4px;
@@ -164,13 +168,15 @@
   bottom: -10%;
   transition: all .5s;
 }
-.links li a:hover{
-  color:#06a3da;
+
+.links li a:hover {
+  color: #06a3da;
 }
+
 .links li a:hover::after {
   width: 100%;
   opacity: 0.6;
- 
+
 }
 
 .links li:not(a:last-of-type) {
@@ -191,7 +197,8 @@
 
 .links button:hover {
   cursor: pointer;
-  background-color:  #2160779c;;
+  background-color: #2160779c;
+  ;
   color: white;
 }
 
@@ -210,7 +217,7 @@
   align-items: center;
   text-align: center;
   position: relative;
-  z-index: px ;
+  z-index: px;
   width: 100%;
   height: 70vh;
   /* color: white; */
@@ -248,7 +255,8 @@
 
 .btn-1:hover {
   cursor: pointer;
-  background-color:  #216077b6;;
+  background-color: #216077b6;
+  ;
   color: white;
 }
 
@@ -340,15 +348,128 @@
   margin-bottom: 12px;
   color: #7088ff;
 }
-.project h1{
+
+.project h1 {
   font-size: 3rem;
-  color:black;
+  color: black;
 }
-.project button{
+
+.project button {
   background-color: #06a3da;
   padding: 12px 0px;
   height: 90px;
   width: 90px;
   border: none;
   border-radius: 15px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.about-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 80vh;
+}
+
+.ab-text {
+  width: 47%;
+}
+
+.ab-text h5 {
+  color: #06a3da;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.ab-text h1 {
+  margin-bottom: 1.5rem;
+
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #091E3E;
+}
+
+.ab-text p {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6B6A75;
+}
+
+.zoom-in {
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.awd h5,
+.sup h5 {
+  color: #091E3E;
+
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.call img {
+  background-color: #06a3da;
+  padding: .6rem;
+
+  border-radius: 5px;
+
+}
+
+.call h5 {
+  font-size: 1rem;
+  margin-bottom:.6rem;
+  color: #091E3E;
+}
+
+.call p {
+  font-size: 1.5rem;
+  color: #06a3da;
+}
+
+.ab-text button {
+  font-size: large;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  background-color: #216077;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: all .5s;
+}
+
+.ab-text button:hover {
+  cursor: pointer;
+  background-color: #2160779c;
+  ;
+  color: white;
+}
+
+.ab-img {
+  height: 100%;
+  width: 43%;
+}
+
+.ab-img img {
+  height: 100%;
+  width: 100%;
 }
