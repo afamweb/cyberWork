@@ -221,7 +221,7 @@
   width: 55%;
 }
 
-.li {
+.ll {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -277,7 +277,21 @@
   line-height: 1.5;
   color: #091E3E;
 }
-
+.li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #06a3da;
+  width:9rem;
+  height: .5rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+.bt-2{
+  height: 100%;
+  flex-basis: 4px;
+  background-color: white;
+}
 .ab-text p {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
@@ -334,11 +348,9 @@
   color: white;
   transition: all .5s;
 }
-
 .ab-text button:hover {
   cursor: pointer;
   background-color: #2160779c;
-  ;
   color: white;
 }
 
