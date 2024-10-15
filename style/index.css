@@ -289,6 +289,7 @@
   margin-bottom: 10vh;
   z-index: 99;
 }
+
 .rate {
   display: flex;
   align-items: center;
@@ -367,7 +368,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100
+  height: 100;
+  margin-bottom:2rem;
 }
 
 .about-con {
@@ -393,30 +395,34 @@
   font-family: "Nunito", sans-serif;
   font-size: 1.9rem;
   font-weight: 800;
-  line-height: 1.5;
+  line-height: 2rem;
   color: #091E3E;
 }
-.li{
+
+.li {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #06a3da;
-  width:9rem;
+  width: 9rem;
   height: .5rem;
   border-radius: 4px;
   margin-bottom: 1.5rem;
 }
-.bt-2{
+
+.bt-2 {
   height: 100%;
   flex-basis: 4px;
   background-color: white;
 }
+
 .ab-text p {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #6B6A75;
+
 }
 
 .zoom-in {
@@ -448,7 +454,7 @@
 
 .call h5 {
   font-size: 1.5rem;
-  margin-bottom:.6rem;
+  margin-bottom: .6rem;
   color: #091E3E;
 }
 
@@ -471,7 +477,6 @@
 .ab-text button:hover {
   cursor: pointer;
   background-color: #2160779c;
-  ;
   color: white;
 }
 
@@ -484,12 +489,85 @@
   height: 100%;
   width: 100%;
 }
-.cont-ch{
+
+.cont-ch {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center
+  height: 100vh;
+  width: 100%;
+  margin-top: 6rem;
 }
-.main-ch{
-  
+
+.main-ch {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 90%;
+}
+.main-ch h5{
+  color: #06a3da;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.main-ch h1{
+  margin-bottom: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  color: #091E3E;
+  width: 50%;
+}
+.ch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width:100%;
+}
+
+.ch-1, .ch-2, .ch-3 {
+width: 95%;
+height: 100%;
+margin-top: 3rem;
+}
+
+.ch-2 img {
+  height: 100%;
+  padding: 0  1.5rem 1.5rem 1.5rem;
+}
+
+.bt {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 0  1.5rem 1.5rem 1.5rem;
+}
+.bt h4{
+  margin-bottom: .5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.5rem;
+  color: #091E3E;
+}
+.bt p{
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #6B6A75;
+}
+.bt img {
+  background-color: #06a3da;
+  padding: .6rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
